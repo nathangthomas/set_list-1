@@ -1,14 +1,14 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/brian/turing/2module/classwork/set_list/config/environment.rb": [
+      "/Users/meganmcmahon/turing/staff/1903M2/set_list/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/brian/turing/2module/classwork/set_list/config/application.rb": [
+      "/Users/meganmcmahon/turing/staff/1903M2/set_list/config/application.rb": [
         1,
         null,
         1,
@@ -41,12 +41,12 @@
         null,
         null
       ],
-      "/Users/brian/turing/2module/classwork/set_list/config/boot.rb": [
+      "/Users/meganmcmahon/turing/staff/1903M2/set_list/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/brian/turing/2module/classwork/set_list/config/environments/test.rb": [
+      "/Users/meganmcmahon/turing/staff/1903M2/set_list/config/environments/test.rb": [
         1,
         null,
         null,
@@ -90,7 +90,7 @@
         null,
         null
       ],
-      "/Users/brian/turing/2module/classwork/set_list/config/initializers/application_controller_renderer.rb": [
+      "/Users/meganmcmahon/turing/staff/1903M2/set_list/config/initializers/application_controller_renderer.rb": [
         null,
         null,
         null,
@@ -100,7 +100,7 @@
         null,
         null
       ],
-      "/Users/brian/turing/2module/classwork/set_list/config/initializers/assets.rb": [
+      "/Users/meganmcmahon/turing/staff/1903M2/set_list/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -116,7 +116,7 @@
         null,
         null
       ],
-      "/Users/brian/turing/2module/classwork/set_list/config/initializers/backtrace_silencers.rb": [
+      "/Users/meganmcmahon/turing/staff/1903M2/set_list/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -125,20 +125,20 @@
         null,
         null
       ],
-      "/Users/brian/turing/2module/classwork/set_list/config/initializers/cookies_serializer.rb": [
+      "/Users/meganmcmahon/turing/staff/1903M2/set_list/config/initializers/cookies_serializer.rb": [
         null,
-        null,
-        null,
-        null,
-        1
-      ],
-      "/Users/brian/turing/2module/classwork/set_list/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/brian/turing/2module/classwork/set_list/config/initializers/inflections.rb": [
+      "/Users/meganmcmahon/turing/staff/1903M2/set_list/config/initializers/filter_parameter_logging.rb": [
+        null,
+        null,
+        null,
+        1
+      ],
+      "/Users/meganmcmahon/turing/staff/1903M2/set_list/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -156,13 +156,13 @@
         null,
         null
       ],
-      "/Users/brian/turing/2module/classwork/set_list/config/initializers/mime_types.rb": [
+      "/Users/meganmcmahon/turing/staff/1903M2/set_list/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/brian/turing/2module/classwork/set_list/config/initializers/wrap_parameters.rb": [
+      "/Users/meganmcmahon/turing/staff/1903M2/set_list/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -178,39 +178,98 @@
         null,
         null
       ],
-      "/Users/brian/turing/2module/classwork/set_list/config/routes.rb": [
+      "/Users/meganmcmahon/turing/staff/1903M2/set_list/config/routes.rb": [
         1,
         null,
         null,
         1,
         null
       ],
-      "/Users/brian/turing/2module/classwork/set_list/app/helpers/application_helper.rb": [
+      "/Users/meganmcmahon/turing/staff/1903M2/set_list/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/brian/turing/2module/classwork/set_list/app/models/song.rb": [
+      "/Users/meganmcmahon/turing/staff/1903M2/set_list/spec/models/artist_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        2,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/meganmcmahon/turing/staff/1903M2/set_list/app/models/artist.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/meganmcmahon/turing/staff/1903M2/set_list/app/models/application_record.rb": [
+        1,
         1,
         null
       ],
-      "/Users/brian/turing/2module/classwork/set_list/app/models/application_record.rb": [
+      "/Users/meganmcmahon/turing/staff/1903M2/set_list/spec/models/song_spec.rb": [
+        1,
+        null,
         1,
         1,
+        2,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
         null
       ],
-      "/Users/brian/turing/2module/classwork/set_list/app/controllers/songs_controller.rb": [
+      "/Users/meganmcmahon/turing/staff/1903M2/set_list/app/models/song.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/meganmcmahon/turing/staff/1903M2/set_list/app/controllers/songs_controller.rb": [
         1,
         1,
         1,
         null,
         null
       ],
-      "/Users/brian/turing/2module/classwork/set_list/app/controllers/application_controller.rb": [
+      "/Users/meganmcmahon/turing/staff/1903M2/set_list/app/controllers/application_controller.rb": [
         1,
         1,
         null
       ]
     },
-    "timestamp": 1556646270
+    "timestamp": 1556732806
   }
 }
