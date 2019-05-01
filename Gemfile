@@ -38,6 +38,7 @@ group :development, :test do
   gem 'launchy' # save_and_open_page
   gem 'pry'
   gem 'simplecov' #tracking test coverage
+  gem 'shoulda-matchers' # DSL for testing models
 end
 
 group :development do
