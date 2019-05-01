@@ -3,8 +3,9 @@ require 'rails_helper'
 RSpec.describe "songs index page", type: :feature do
   # I see each songs title and play count
   before :each do
-    @song_1 = Song.create(title: "Don't stop belivin'", length: 303, play_count: 12345)
-    @song_2 = Song.create(title: "Bohemian Rhapsody", length: 540, play_count: 67829348)
+    prince = Artist.create(name: 'Prince')
+    @song_1 = prince.songs.create!(title: "Don't stop belivin'", length: 303, play_count: 12345)
+    @song_2 = prince.songs.create!(title: "Bohemian Rhapsody", length: 540, play_count: 67829348)
   end
 
   describe "statistics" do
