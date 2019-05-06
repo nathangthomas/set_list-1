@@ -39,6 +39,7 @@ group :development, :test do
   gem 'pry'
   gem 'simplecov' #tracking test coverage
   gem 'shoulda-matchers' # DSL for testing models
+  gem 'factory_bot_rails' # create lots of objects for our tests
 end
 
 group :development do

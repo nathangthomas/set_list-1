@@ -2,5 +2,6 @@
   <section id="song-<%= song.id %>"
     <h2><%= link_to song.title, "/songs/#{song.id}" %></h2>
     <p>Play Count: <%= song.play_count %></p>
+    <p>Length: <%= song.length %></p>
   </section>
 <% end %>
