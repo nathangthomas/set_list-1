@@ -4,7 +4,6 @@ RSpec.describe "songs index page", type: :feature do
   before :each do
     @artist = create(:artist)
     @song_1, @song_2, @song_3 = create_list(:song, 3, artist: @artist)
-    binding.pry
   end
 
   it "shows all songs" do
