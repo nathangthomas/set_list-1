@@ -11,7 +11,10 @@ RSpec.describe "songs index page", type: :feature do
     song_1 = artist.songs.create!(title: "Don't stop belivin'", length: 303, play_count: 12345)
     song_2 = artist.songs.create!(title: "Bohemian Rhapsody", length: 540, play_count: 67829348)
 
-    visit '/songs'
+    binding.pry
+
+    # visit '/songs'
+    visit songs_path
 
     expect(page).to have_content(song_1.title)
     expect(page).to have_content("Play Count: #{song_1.play_count}")
@@ -24,13 +27,13 @@ RSpec.describe "songs index page", type: :feature do
     song_1 = artist.songs.create!(title: "Don't stop belivin'", length: 303, play_count: 12345)
     song_2 = artist.songs.create!(title: "Bohemian Rhapsody", length: 540, play_count: 67829348)
 
-    visit '/songs'
+    visit songs_path
 
     expect(page).to have_link(song_1.title)
 
     click_link song_1.title
 
-    expect(current_path).to eq("/songs/#{song_1.id}")
+    expect(current_path).to eq(song_path(song_1))
     expect(page).to have_content(song_1.title)
   end
 
