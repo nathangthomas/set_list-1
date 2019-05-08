@@ -11,8 +11,6 @@ RSpec.describe "songs index page", type: :feature do
     song_1 = artist.songs.create!(title: "Don't stop belivin'", length: 303, play_count: 12345)
     song_2 = artist.songs.create!(title: "Bohemian Rhapsody", length: 540, play_count: 67829348)
 
-    binding.pry
-
     # visit '/songs'
     visit songs_path
 
