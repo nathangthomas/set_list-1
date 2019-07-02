@@ -12,4 +12,7 @@ Rails.application.routes.draw do
   patch '/artists/:id', to: 'artists#update'
 
   resources :playlists, only: :index
+
+  #cart
+  patch '/cart/:song_id', to: 'cart#add_song', as: "cart"
 end
